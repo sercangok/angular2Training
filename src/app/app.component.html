@@ -1,3 +1,19 @@
 <h1>
-  {{title}}
+LOGIN PAGE
 </h1>
+
+<br/>
+
+<h2> {{userName}} {{userPass}} </h2>
+
+<br>  
+
+ UserName: <input type="text" #txtUserName [(ngModel)]="userName" />
+
+ UserPass <input type="text" #txtUserPass [(ngModel)]="userPass"/>
+
+<br/>
+
+<input type="button" value="Login" (click)="submitLogin(txtUserName,txtUserPass)" />
+
+<app-forgetPass></app-forgetPass>

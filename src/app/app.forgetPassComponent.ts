@@ -22,6 +22,7 @@ export class ForgetPassComponent implements OnInit {
   }
 
   submitForgetPass(){
+    //Test
     console.log("FogetPass:submitForgetPass")
     this.forgetPassText+=":F"
   }
